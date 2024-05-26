@@ -1,9 +1,2 @@
-create table course
-(
-    id bigint not null,
-    name varchar(255) not null,
-    author varchar(255) not null,
-    primary key (id)
-
-
-);
+INSERT INTO COURSE (ID, NAME, AUTHOR)
+VALUES (100001, 'EDAZAVA', 'KHAPAKA');
